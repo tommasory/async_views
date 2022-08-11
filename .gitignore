@@ -1,0 +1,4 @@
+.idea
+async_views.iml
+*/__pycache__/
+db.sqlite3

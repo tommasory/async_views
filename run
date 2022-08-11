@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Development Server
+uvicorn hello_async.asgi:application --reload --port 8000
+
+# Running through Gunicorn
+#gunicorn hello_async.asgi:application -w 4 -k uvicorn.workers.UvicornWorker
